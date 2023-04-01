@@ -1,1 +1,0 @@
-    printf("%f",float_num);
