@@ -3,9 +3,9 @@
 int main()
 {
 
-    int a, b, c;
+    int a, b, c, d;
 
-    scanf("%d %d %d", &a, &b, &c);
+    scanf("%d %d %d %d", &a, &b, &c, &d);
     if (a > b)
     {
         printf("A bigger than b\n");
@@ -18,6 +18,11 @@ int main()
         {
             printf("a and c are not equal\n");
         }
+    }
+
+    else if (a > d)
+    {
+        printf("a greater than d");
     }
     else
     {
