@@ -1,0 +1,27 @@
+// problem4
+// You need to take one integer value as input and tell if the value is positive or negative or zero.
+// See the sample input and output for more clarification.
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+
+    scanf("%d", &num);
+    if (num > 0)
+    {
+        printf("positive");
+    }
+
+    else if (num < 0)
+    {
+        printf("negative");
+    }
+
+    else
+    {
+        printf("zero");
+    }
+    return 0;
+}
