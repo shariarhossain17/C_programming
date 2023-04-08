@@ -9,10 +9,13 @@
 
 int main(void)
 {
-    printf("Recently I heard that you’ve achieved 95% marks in your exam\n");
-    printf("This is brilliant!\n");
-    printf("I wish you’ll shine in your life!\tGood luck with all the barriers(/\\) in\n");
-    printf("your life");
+
+    int a;
+
+    for (a = 0; a >= 0; a++)
+    {
+        printf("hello\n");
+    }
 
     return 0;
 }
