@@ -2,18 +2,17 @@
 
 int main(void)
 {
-
     int a, b;
-    char str;
     scanf("%d %d", &a, &b);
 
-    if (a % b == 0)
+    if (a >= b)
     {
-        printf("Multiples");
+        printf("Yes\n");
     }
+
     else
     {
-        printf("No Multiples");
+        printf("No\n");
     }
     return 0;
 }
